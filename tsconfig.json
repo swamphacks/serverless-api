@@ -4,13 +4,15 @@
       "es2017"
     ],
     "moduleResolution": "node",
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
     "sourceMap": true,
     "target": "es2017",
-    "outDir": "lib"
+    "outDir": "lib",
+    "esModuleInterop": true
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "src/tests"
   ]
 }
