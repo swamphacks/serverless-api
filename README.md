@@ -1,6 +1,6 @@
 # Severless API
 
-Serverless Typescript API deployed on AWS
+SwampHacks API 
 
 <br/>
 
