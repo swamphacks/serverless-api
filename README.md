@@ -9,11 +9,11 @@ SwampHacks API
 ### Files
 
 - `src/`
-  - `handlers`
-  - `controllers`
-  - `utils`
-  - `models`
-  - `tests`
+  - `handlers/`
+  - `controllers/`
+  - `utils/`
+  - `models/`
+  - `tests/`
 
 ### Architecture
 
