@@ -1,5 +1,5 @@
 service:
-    name: swamphacks-api
+    name: api
 
 plugins:
     - serverless-webpack

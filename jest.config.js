@@ -1,6 +1,8 @@
-// jest.config.js
 module.exports = {
-	collectCoverageFrom: ['./src/**/*.ts'],
+	collectCoverageFrom: [
+		'./src/**/*.ts',
+		'!./src/tests/data/*'
+	],
 	coverageThreshold: {
 		'./src/**/*.ts': {
 			branches: 100,
@@ -9,9 +11,6 @@ module.exports = {
 			statements: 100,
 		},
 	},
-	// moduleNameMapper: {
-	// 	'@app(.*)$': '<rootDir>/app/$1',
-	// },
 	moduleFileExtensions: [
 		"ts",
 		"tsx",

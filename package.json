@@ -1,11 +1,11 @@
 {
-  "name": "swamphacks-api",
+  "name": "serverless-api",
   "version": "0.1.0",
   "description": "Serverless Typescript API",
   "main": "handler.js",
   "scripts": {
     "dev": "sls offline",
-    "test": "jest"
+    "test": "jest --collectCoverage"
   },
   "dependencies": {
     "source-map-support": "^0.5.10"
