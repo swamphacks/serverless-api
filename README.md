@@ -26,15 +26,7 @@ SwampHacks API
 <br/>
 
 ## Contributing
-
-### Git Flow
-
-> Master is a protected branch – all commits must be made from a non-protected branch and submitted via a pull request
-
-Please follow these naming conventions
-
-- **feature/<`feature-name`>** – branched off of develop
-- **hotfix/<`fix-name`>** – branched off of master
+Before getting started, please read the rules on contributing [here](https://github.com/swamphacks/developer-docs/blob/master/CONTRIBUTING.md).
 
 ### Setup
 
